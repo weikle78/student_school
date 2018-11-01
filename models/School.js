@@ -1,7 +1,7 @@
 const mongoose= require('mongoose')
 const Schema = mongoose.Schema;
 
-const Team = new mongoose.Schema({
+const School = new mongoose.Schema({
     name: {type:String, trim:true, default:''},
     address: {type:String, trim:true, default:''},
     city: {type:String, trim:true, default:''},
